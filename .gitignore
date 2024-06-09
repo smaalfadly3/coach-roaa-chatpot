@@ -1,0 +1,43 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment and package files
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.venv.bak/
+Pipfile.lock
+
+# Python-specific files
+*.pyc
+*.pyo
+
+# Streamlit specific files
+.streamlit/secrets.toml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Virtual environment directories
+.idea/
+.vscode/
+
+# Ignore any local secrets or configuration files
+secrets.toml
+config.toml
+
+# Ignore any build artifacts
+build/
+dist/
+*.egg-info/
